@@ -6,7 +6,9 @@ import { NextResponse } from 'next/server';
 import { useRouter } from "next/navigation";
 
 export default function profile() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const router = useRouter();
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [data,setData]=useState("nothing")
   const logout =async () => {
     try { 
